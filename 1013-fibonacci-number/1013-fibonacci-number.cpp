@@ -1,11 +1,14 @@
 class Solution {
 private:
+    int solve(int n,vector<int> &dp){
+        if(n==0)return 0;
+        else if(n==1 || n==2) return 1;
+        if(dp[n]!=-1)return dp[n];
+        return dp[n] = solve(n-1,dp)+solve(n-2,dp);
+    }
 public:
     int fib(int n) {
-        // Attept 02
-        double t = sqrt(5);
-        long long ans =(1/t)*(pow((1+t)/2,n)-pow((1-t)/2,n));
-        return ans;
-       
+        vector<int> dp(n+1,-1);
+        return solve(n,dp);
     }
 };
