@@ -12,7 +12,7 @@ public:
         int ans = 0;
         // 01
         for(int i=0;i<s.size();i++){
-            if(i<s.size()-1 && umap[s[i+1]]>umap[s[i]]){
+            if(umap[s[i+1]]>umap[s[i]]){
                 ans += (umap[s[i+1]] - umap[s[i]]);
                 i++;
             }
