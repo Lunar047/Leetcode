@@ -10,6 +10,7 @@ public:
         umap.insert({'D',500});
         umap.insert({'M',1000});
         int ans = 0;
+        // 01
         for(int i=0;i<s.size();i++){
             if(i<s.size()-1 && umap[s[i+1]]>umap[s[i]]){
                 ans += (umap[s[i+1]] - umap[s[i]]);
