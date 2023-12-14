@@ -1,0 +1,88 @@
+class Solution {
+private:
+   int eval(string c,int &b,int &a){
+        if(c=="+")return a+b;
+        else if(c=="*")return a*b;
+        else if(c=="-")return a-b;
+        else return a/b;
+    }
+    bool isOp(char o){
+        if ( o == '/' || o == '*' || o == '+' || o == '-')return 1;
+        else return 0;
+    }
+    bool isop(string &s){
+        if(s=="/" || s=="*" || s=="+" || s=="-")return 1;
+        else return 0;
+    }
+    int prec(string &a){
+        if(a=="/" || a=="*")return 2;
+        if(a=="+" || a=="-")return 1;
+        else return -1;
+    }
+    int evalRPN(vector<string>& tok) {
+        stack<int> st;
+        int n = tok.size();
+        for(int i=0;i<n;i++){
+            if(isop(tok[i])){
+                int a = st.top();
+                st.pop();
+                int b = st.top();
+                st.pop();
+                st.push(eval(tok[i],a,b));
+            }
+            else{
+                st.push(stoi(tok[i]));
+            }
+        }
+        return st.top();
+    }
+public:
+    int calculate(string s) {
+        vector<string> tokens;
+        string t;
+        // cout<<"\n"<<s.size()<<endl;
+        for(int i=0;i<s.size();i++){
+            // cout<<i<<" ";
+            if(isOp(s[i])){
+                tokens.push_back(t);
+                t.clear();
+                t.push_back(s[i]);
+                tokens.push_back(t);
+                t.clear();
+            }
+            else if(isdigit(s[i]))t.push_back(s[i]);
+        }
+        // cout<<"\n"<<s.size()<<endl;
+        tokens.push_back(t);
+        // for(auto it:tokens)cout<<it<<" ";
+        // infix to postfix
+        vector<string> post;
+        stack<string> st;
+        for(int i=0;i<tokens.size();i++){
+            if(isop(tokens[i])){
+                if(st.empty() || prec(st.top())<prec(tokens[i])){
+                    st.push(tokens[i]);
+                }
+                else{
+                    while(!st.empty() && prec(st.top())>=prec(tokens[i])){
+                        post.push_back(st.top());
+                        st.pop();
+                    }
+                    st.push(tokens[i]);
+                }
+            }
+            else {
+                post.push_back(tokens[i]);
+            }
+        }
+        while(!st.empty()){
+            post.push_back(st.top());
+            st.pop();
+        }
+        // for(auto it:post)cout<<it<<" ";
+
+        return evalRPN(post);
+    }
+
+
+};
