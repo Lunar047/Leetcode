@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/Lunar047/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Lunar047/Leetcode/tree/master/0022-generate-parentheses) |
 ## Dynamic Programming
 |  |
@@ -14,5 +15,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/Lunar047/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Lunar047/Leetcode/tree/master/0022-generate-parentheses) |
+## Hash Table
+|  |
+| ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/Lunar047/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 <!---LeetCode Topics End-->
