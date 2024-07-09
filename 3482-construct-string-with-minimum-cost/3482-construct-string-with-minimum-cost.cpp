@@ -1,10 +1,8 @@
 struct node{
     node *link[26];
-    bool f;
     int cost;
     node(){
         for(int i=0;i<26;i++)link[i] = nullptr;
-        f=0;
         cost =1e9;
     }
 };
@@ -26,7 +24,6 @@ private:
                     if(!ptr->link[index])ptr->link[index] = new node();
                     ptr = ptr->link[index];
                 }
-                ptr->f = 1;
                 ptr->cost =  min(cost,ptr->cost);
             }
     };
@@ -43,14 +40,11 @@ public:
             if(dp[i]==1e9)continue;
             node*ptr = T.root;
                 for(int j=i;j<n;j++){
-                    // cout<<j<<" ";
                     if(!ptr->link[target[j]-'a'])break;
                     ptr = ptr->link[target[j]-'a'];
                     dp[j+1] = min(dp[j+1],dp[i]+ptr->cost);
                 }
-                // cout<<endl;
        }
-    //    for(auto &i:dp)cout<<i<<" ";
        if(dp[n]>=1e9)return -1;
        else return dp[n];
     }
