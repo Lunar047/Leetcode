@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Lunar047/Leetcode/tree/master/0022-generate-parentheses) |
+| [0064-minimum-path-sum](https://github.com/Lunar047/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/Lunar047/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Lunar047/Leetcode/tree/master/3482-construct-string-with-minimum-cost) |
 ## Backtracking
@@ -36,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/Lunar047/Leetcode/tree/master/0039-combination-sum) |
+| [0064-minimum-path-sum](https://github.com/Lunar047/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0078-subsets](https://github.com/Lunar047/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Lunar047/Leetcode/tree/master/0079-word-search) |
 | [1803-average-waiting-time](https://github.com/Lunar047/Leetcode/tree/master/1803-average-waiting-time) |
@@ -58,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0064-minimum-path-sum](https://github.com/Lunar047/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/Lunar047/Leetcode/tree/master/0079-word-search) |
 ## Math
 |  |
