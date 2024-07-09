@@ -4,7 +4,7 @@ private:
     int check(vector<ll>&bit_count,int k,int len){
         int ant = 0;
         for(int i=0;i<32;i++){
-            if(bit_count[i]>=len)ant |=(1<<i);
+            if(bit_count[i]==len)ant |=(1<<i);
         }
         return ant;
     }
