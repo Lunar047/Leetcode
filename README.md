@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/Lunar047/Leetcode/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/Lunar047/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0768-partition-labels](https://github.com/Lunar047/Leetcode/tree/master/0768-partition-labels) |
+| [1250-longest-common-subsequence](https://github.com/Lunar047/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Lunar047/Leetcode/tree/master/3482-construct-string-with-minimum-cost) |
 ## Dynamic Programming
 |  |
@@ -23,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0279-perfect-squares](https://github.com/Lunar047/Leetcode/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/Lunar047/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Lunar047/Leetcode/tree/master/0322-coin-change) |
+| [1250-longest-common-subsequence](https://github.com/Lunar047/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Lunar047/Leetcode/tree/master/3482-construct-string-with-minimum-cost) |
 ## Backtracking
 |  |
