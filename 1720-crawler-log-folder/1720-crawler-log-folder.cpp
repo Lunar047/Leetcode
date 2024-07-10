@@ -1,13 +1,13 @@
 class Solution {
 public:
     int minOperations(vector<string>& logs) {
-        stack<string> st;
-        for(string i:logs){
+        int ans = 0;
+        for(auto &i:logs){
             if(i[0]=='.'){
-                if(i[1]=='.')if(st.size())st.pop();
+                if(i[1]=='.')ans = max(0,ans-1);
             }
-            else{st.push(i);}
+            else ans++;
         }
-        return st.size();
+        return ans;
     }
 };
