@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0131-palindrome-partitioning](https://github.com/Lunar047/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0768-partition-labels](https://github.com/Lunar047/Leetcode/tree/master/0768-partition-labels) |
 | [1250-longest-common-subsequence](https://github.com/Lunar047/Leetcode/tree/master/1250-longest-common-subsequence) |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Lunar047/Leetcode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/Lunar047/Leetcode/tree/master/1720-crawler-log-folder) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Lunar047/Leetcode/tree/master/3482-construct-string-with-minimum-cost) |
 ## Dynamic Programming
@@ -112,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Lunar047/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Lunar047/Leetcode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/Lunar047/Leetcode/tree/master/1720-crawler-log-folder) |
 ## Tree
 |  |
