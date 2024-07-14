@@ -24,13 +24,10 @@ public:
         while(!pq1.empty()){
             ans += (part2*pq1.top());
                 pq1.pop();
-                part1++;
-            
         }
         while(!pq2.empty()){
              ans += (part1*pq2.top());
                 pq2.pop();
-                part2++;
         }
         return ans;
     }
