@@ -18,9 +18,7 @@ public:
             int node_val = i[0],child_val = i[1],is_left = i[2];
             TreeNode *ptr;
             child.insert(child_val);
-            if(!child.count(node_val))parent.insert(node_val);
-            else parent.insert(node_val);
-            
+            parent.insert(node_val);
             if(mp.count(node_val))ptr = mp[node_val];
             else {
                 ptr = new TreeNode(node_val);
