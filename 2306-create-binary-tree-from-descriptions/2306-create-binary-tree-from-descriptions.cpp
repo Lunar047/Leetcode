@@ -18,7 +18,6 @@ public:
             int node_val = i[0],child_val = i[1],is_left = i[2];
             TreeNode *ptr;
             child.insert(child_val);
-            parent.insert(node_val);
             if(mp.count(node_val))ptr = mp[node_val];
             else {
                 ptr = new TreeNode(node_val);
@@ -40,8 +39,8 @@ public:
             }
 
         }
-        for(auto &i:parent){
-            if(!child.count(i))return mp[i];
+        for(auto &i:mp){
+            if(!child.count(i.first))return i.second;
         }
         return nullptr;
     }
