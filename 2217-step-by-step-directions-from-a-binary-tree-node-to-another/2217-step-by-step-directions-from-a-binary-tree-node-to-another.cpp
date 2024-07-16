@@ -12,22 +12,6 @@
 class Solution {
 private:
     string ans;
-    map<int,TreeNode*> parent;
-    set<int> vis;
-    // void dfs(TreeNode*root,TreeNode*&start,TreeNode*&end,int &sv,int &ev){
-    //     if(!root)return;
-    //     // vis[root] = 0;
-    //     if(root->val==sv)start = root;
-    //     else if(root->val==ev)end = root;
-    //     if(root->left){
-    //         parent[root->left->val] = root;
-    //         dfs(root->left,start,end,sv,ev);
-    //     }
-    //     if(root->right){
-    //         parent[root->right->val] = root;
-    //         dfs(root->right,start,end,sv,ev);
-    //     }
-    // }
     TreeNode*LCA(TreeNode *root,int &start,int &end){
         if(!root)return nullptr;
         if(root->val==start || root->val==end)return root;
