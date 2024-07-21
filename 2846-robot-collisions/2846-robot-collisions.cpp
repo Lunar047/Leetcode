@@ -34,7 +34,7 @@ public:
                         healths[st.top()]--;
                         if(healths[st.top()]==0)st.pop();
                     }
-                }cout<<endl;
+                }
             }
         }
         vector<int> ans;
