@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Lunar047/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Lunar047/Leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Lunar047/Leetcode/tree/master/2472-build-a-matrix-with-conditions) |
+| [2846-robot-collisions](https://github.com/Lunar047/Leetcode/tree/master/2846-robot-collisions) |
 | [3466-number-of-subarrays-with-and-value-of-k](https://github.com/Lunar047/Leetcode/tree/master/3466-number-of-subarrays-with-and-value-of-k) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Lunar047/Leetcode/tree/master/3482-construct-string-with-minimum-cost) |
 ## Two Pointers
@@ -112,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1803-average-waiting-time](https://github.com/Lunar047/Leetcode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Lunar047/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2846-robot-collisions](https://github.com/Lunar047/Leetcode/tree/master/2846-robot-collisions) |
 ## Binary Search
 |  |
 | ------- |
@@ -134,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Lunar047/Leetcode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/Lunar047/Leetcode/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Lunar047/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2846-robot-collisions](https://github.com/Lunar047/Leetcode/tree/master/2846-robot-collisions) |
 ## Tree
 |  |
 | ------- |
@@ -194,4 +197,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2472-build-a-matrix-with-conditions](https://github.com/Lunar047/Leetcode/tree/master/2472-build-a-matrix-with-conditions) |
+## Sorting
+|  |
+| ------- |
+| [2846-robot-collisions](https://github.com/Lunar047/Leetcode/tree/master/2846-robot-collisions) |
 <!---LeetCode Topics End-->
