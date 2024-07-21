@@ -4,7 +4,7 @@ typedef long long int ll;
 public:
     vector<int> survivedRobotsHealths(vector<int>& positions, vector<int>& healths, string directions) {
         int n = positions.size();
-        map<int,int> mp;//mapping of positions and robot number
+        unordered_map<int,int> mp;//mapping of positions and robot number
         for(int i=0;i<n;i++){
             mp[positions[i]] = i;
         }
@@ -18,7 +18,7 @@ public:
             else{
                 // cout<<ind<<":"<<positions[ind]<<"  ";
                 while(!st.empty() && healths[ind]>0){
-                    cout<<st.top()<<" ";
+                    // cout<<st.top()<<" ";
                     if(healths[ind]>healths[st.top()]){
                         healths[st.top()] = 0;
                         st.pop();
