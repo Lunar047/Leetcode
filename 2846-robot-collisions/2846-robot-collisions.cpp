@@ -4,14 +4,15 @@ typedef long long int ll;
 public:
     vector<int> survivedRobotsHealths(vector<int>& positions, vector<int>& healths, string directions) {
         int n = positions.size();
-        unordered_map<int,int> mp;//mapping of positions and robot number
+        // unordered_map<int,int> mp;//mapping of positions and robot number
+        vector<pii> pos;
         for(int i=0;i<n;i++){
-            mp[positions[i]] = i;
+            pos.push_back({positions[i],i});
         }
-        sort(positions.begin(),positions.end());
+        sort(pos.begin(),pos.end());
         stack<int> st;
         for(int i=0;i<n;i++){
-            int ind = mp[positions[i]],health = healths[ind];
+            int ind = pos[i].second,health = healths[ind];
             if(directions[ind]=='R'){
                 st.push(ind);
             }
@@ -21,13 +22,13 @@ public:
                     // cout<<st.top()<<" ";
                     if(healths[ind]>healths[st.top()]){
                         healths[st.top()] = 0;
-                        st.pop();
                         healths[ind]--;
+                        st.pop();
                     }
                     else if(healths[ind]==healths[st.top()]){
                         healths[st.top()] = 0;
-                        st.pop();
                         healths[ind] = 0;
+                        st.pop();
                     }
                     else{
                         healths[ind] = 0;
