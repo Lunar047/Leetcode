@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/Lunar047/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Lunar047/Leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/Lunar047/Leetcode/tree/master/2502-sort-the-people) |
+| [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Lunar047/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 ## Array
 |  |
 | ------- |
@@ -73,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2472-build-a-matrix-with-conditions](https://github.com/Lunar047/Leetcode/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/Lunar047/Leetcode/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/Lunar047/Leetcode/tree/master/2846-robot-collisions) |
+| [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Lunar047/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 | [3466-number-of-subarrays-with-and-value-of-k](https://github.com/Lunar047/Leetcode/tree/master/3466-number-of-subarrays-with-and-value-of-k) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Lunar047/Leetcode/tree/master/3482-construct-string-with-minimum-cost) |
 ## Two Pointers
@@ -105,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/Lunar047/Leetcode/tree/master/0070-climbing-stairs) |
 | [0279-perfect-squares](https://github.com/Lunar047/Leetcode/tree/master/0279-perfect-squares) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Lunar047/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Lunar047/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 ## Recursion
 |  |
 | ------- |
@@ -208,4 +211,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/Lunar047/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/Lunar047/Leetcode/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/Lunar047/Leetcode/tree/master/2846-robot-collisions) |
+## Counting
+|  |
+| ------- |
+| [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Lunar047/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 <!---LeetCode Topics End-->
