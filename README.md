@@ -75,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2502-sort-the-people](https://github.com/Lunar047/Leetcode/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/Lunar047/Leetcode/tree/master/2846-robot-collisions) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Lunar047/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
+| [3427-special-array-ii](https://github.com/Lunar047/Leetcode/tree/master/3427-special-array-ii) |
 | [3466-number-of-subarrays-with-and-value-of-k](https://github.com/Lunar047/Leetcode/tree/master/3466-number-of-subarrays-with-and-value-of-k) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Lunar047/Leetcode/tree/master/3482-construct-string-with-minimum-cost) |
 ## Two Pointers
@@ -126,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/Lunar047/Leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [3427-special-array-ii](https://github.com/Lunar047/Leetcode/tree/master/3427-special-array-ii) |
 | [3466-number-of-subarrays-with-and-value-of-k](https://github.com/Lunar047/Leetcode/tree/master/3466-number-of-subarrays-with-and-value-of-k) |
 ## Segment Tree
 |  |
@@ -215,4 +217,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Lunar047/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
+## Prefix Sum
+|  |
+| ------- |
+| [3427-special-array-ii](https://github.com/Lunar047/Leetcode/tree/master/3427-special-array-ii) |
 <!---LeetCode Topics End-->
