@@ -189,8 +189,10 @@ class Solution {
 
 public:
     vector<int> sortArray(vector<int>& nums) const {
-        count_buck_sort(nums);
+        // count_buck_sort(nums);
+        // bubble_sort(nums);
         //sort(nums.begin(), nums.end());
+        merge_sort(nums);
         return nums;
     }
 };
