@@ -20,29 +20,36 @@ private:
         merge(s,mid,e,nums);
        }
     }
+    int partition(int s,int e,vector<int> &nums){
+        int pivot = nums[s],i = s,j = e;
+       while(i<j){
+        while(nums[i]<=pivot && i<e)i++;
+        while(nums[j]>pivot && j>s) j--;
+        if(i<j)swap(nums[i],nums[j]);
+       }
+       swap(nums[s],nums[j]);
+       return j;
+    }
     void quickSort(int s,int e,vector<int> &nums){
-        cout<<s<<" "<<e<<"\n";
+        // cout<<s<<" "<<e<<"\n";
         if(s<e){
             int pivot = partition(s,e,nums);
             quickSort(s,pivot-1,nums);
             quickSort(pivot+1,e,nums);
         }
     }
-    int partition(int s,int e,vector<int> &nums){
-        int pivot = nums[e],i = s,j = e;
-       while(i<j){
-        if(nums[i]<=pivot && i<e)i++;
-        else if(nums[j]>pivot && j>s) j--;
-        else swap(nums[i],nums[j]);
-       }
-       swap(nums[e],nums[j]);
-       return j;
+    bool isSorted(int &n,vector<int> &nums){
+        for(int i = 0;i<n-1;i++){
+            if(nums[i]>nums[i+1])return 0;
+        }
+        return 1;
     }
 public:
     vector<int> sortArray(vector<int>& nums) {
         int n = nums.size();
-        // quickSort(0,n-1,nums);
-        mergeSort(0,n-1,nums);
+        if(isSorted(n,nums))return nums;
+        quickSort(0,n-1,nums);
+        // mergeSort(0,n-1,nums);
         return nums;
     }
 };
