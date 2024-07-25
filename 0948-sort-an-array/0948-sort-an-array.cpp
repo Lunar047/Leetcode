@@ -48,8 +48,8 @@ public:
     vector<int> sortArray(vector<int>& nums) {
         int n = nums.size();
         if(isSorted(n,nums))return nums;
-        quickSort(0,n-1,nums);
-        // mergeSort(0,n-1,nums);
+        // quickSort(0,n-1,nums);
+        mergeSort(0,n-1,nums);
         return nums;
     }
 };
