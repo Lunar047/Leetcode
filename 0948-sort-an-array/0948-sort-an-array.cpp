@@ -192,7 +192,8 @@ public:
         // count_buck_sort(nums);
         // bubble_sort(nums);
         //sort(nums.begin(), nums.end());
-        merge_sort(nums);
+        // merge_sort(nums);
+        quick_sort(nums);
         return nums;
     }
 };
