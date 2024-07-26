@@ -1,7 +1,7 @@
 class Solution {
 private:
     #define inf INT_MAX
-    #define ll long long
+    #define ll int
 public:
     int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
         // vector<pair<int,int>>  adj[n];
