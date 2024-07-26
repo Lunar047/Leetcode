@@ -11,28 +11,24 @@
  */
 class Solution {
 private:
-    int solve(TreeNode*root,TreeNode*parent){
-        if(!root)return 0;
-        int ans = 0;
-        ans+= solve(root->left,root);
-        ans+= solve(root->right,root);
-        if((root->left && root->left->val==0) || (root->right && root->right->val==0)){
-            root->val = 1;
+    int ans = 0;
+    int solve(TreeNode*root){
+        if(!root)return 2;
+        int l =  solve(root->left);
+        int r = solve(root->right);
+        if(l==0 || r==0){
             ans++;
+            return 1;
         }
-        else if((root->left && root->left->val==1) || (root->right && root->right->val==1)){
-            root->val = 2;
+        if(l==1 || r==1){
+            return 2;
         }
-        if(!parent && !root->val){
-            ans++;
-        }
-        return ans;
+        return 0;
     }
 public:
     int minCameraCover(TreeNode* root) {
         if(!root)return 0;
-        // else if(!root->left && !root->right)return 1;
-        // return solve(1,1,root);
-        return solve(root,nullptr);
+        if(solve(root)==0)return ans+1;
+        else return ans;
     }
 };
