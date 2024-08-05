@@ -29,21 +29,41 @@ private:
         while(j<=right)temp[k++] = (nums[j++]);
         for(int i=left;i<=right;i++)nums[i] = temp[i-left];
     }
+        // Fenwick Tree
+        int no_of_smaller_element(int num,vector<int>&fen){
+            int cnt = 0;
+            for(num;num>0;num-=num&-num){
+                cnt+=fen[num];
+            }
+            return cnt;
+        }
+        void update(int num,vector<int> &fen){
+            for(num;num<=fen.size();num+=num&-num)fen[num]++;
+        }
 public:
     vector<int> countSmaller(vector<int>& nums) {
         int n = nums.size();
         count.assign(n,0);
+        // ordered set approach
         // pbds A;
-        vector<pii> temp;
-        for(int i=0;i<n;i++){
-            temp.push_back({nums[i],i});
-        }
-        mergeSort(0,n-1,temp);
+        // Merge sort approach
+        // vector<pii> temp;
+        // for(int i=0;i<n;i++){
+        //     temp.push_back({nums[i],i});
+        // }
+        // mergeSort(0,n-1,temp);
         // for(auto &i:temp)cout<<i.first<<" ";
         // for(int i= n-1;i>=0;i--){
         //     A.insert(nums[i]);
         //     count[i] = A.order_of_key(nums[i]);
         // }
+        // Fenwick Tree approach
+        int mx = *max_element(nums.begin(),nums.end()),mn = *min_element(nums.begin(),nums.end());
+        vector<int> fen(2e4+10,0);
+        for(int i=n-1;i>=0;i--){
+            count[i] = no_of_smaller_element(nums[i]-mn,fen);
+            update(nums[i]-mn+1,fen);
+        }
         return count;
     }
 };
