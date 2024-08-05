@@ -20,7 +20,7 @@ private:
         int i = left,j = mid+1;
         while(i<=mid && j<=right){
             if(nums[i].first>nums[j].first){
-                count[nums[i].second]+=(right-j+1);
+                count[nums[i].second]+=(right-j+1);// As right side of array is also sorted therefore number of element smaller that current i will be right - j + 1
                 temp.push_back(nums[i++]);
             }
             else temp.push_back(nums[j++]);
@@ -41,8 +41,8 @@ public:
         mergeSort(0,n-1,temp);
         // for(auto &i:temp)cout<<i.first<<" ";
         // for(int i= n-1;i>=0;i--){
-            // A.insert(nums[i]);
-            // ans[i] = A.order_of_key(nums[i]);
+        //     A.insert(nums[i]);
+        //     count[i] = A.order_of_key(nums[i]);
         // }
         return count;
     }
