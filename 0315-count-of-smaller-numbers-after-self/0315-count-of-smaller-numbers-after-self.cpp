@@ -16,17 +16,17 @@ private:
         }
     }
     void merge(int left,int mid,int right,vector<pii>&nums){
-        vector<pii> temp;
-        int i = left,j = mid+1;
+        vector<pii> temp(right-left+1);
+        int i = left,j = mid+1,k=0;
         while(i<=mid && j<=right){
             if(nums[i].first>nums[j].first){
                 count[nums[i].second]+=(right-j+1);// As right side of array is also sorted therefore number of element smaller that current i will be right - j + 1
-                temp.push_back(nums[i++]);
+                temp[k++] = nums[i++];
             }
-            else temp.push_back(nums[j++]);
+            else temp[k++] = (nums[j++]);
         }
-        while(i<=mid)temp.push_back(nums[i++]);
-        while(j<=right)temp.push_back(nums[j++]);
+        while(i<=mid)temp[k++] = (nums[i++]);
+        while(j<=right)temp[k++] = (nums[j++]);
         for(int i=left;i<=right;i++)nums[i] = temp[i-left];
     }
 public:
