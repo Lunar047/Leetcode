@@ -4,7 +4,6 @@ using namespace __gnu_pbds;
 class Solution {
 private:
     //for PBDS uncomment these lines
-
     typedef tree<long long int, null_type, less_equal<long long int>, rb_tree_tag, tree_order_statistics_node_update> pbds; // find_by_order, order_of_key
 public:
     vector<int> countSmaller(vector<int>& nums) {
@@ -13,9 +12,7 @@ public:
         pbds A;
         for(int i= n-1;i>=0;i--){
             A.insert(nums[i]);
-            int k = A.order_of_key(nums[i]);
-            // cout<<k<<" ";
-            ans[i] = k;
+            ans[i] = A.order_of_key(nums[i]);;
         }
         return ans;
     }
