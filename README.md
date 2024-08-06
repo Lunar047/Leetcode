@@ -148,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/Lunar047/Leetcode/tree/master/0307-range-sum-query-mutable) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Lunar047/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [1511-count-number-of-teams](https://github.com/Lunar047/Leetcode/tree/master/1511-count-number-of-teams) |
 | [3466-number-of-subarrays-with-and-value-of-k](https://github.com/Lunar047/Leetcode/tree/master/3466-number-of-subarrays-with-and-value-of-k) |
 ## Suffix Array
 |  |
