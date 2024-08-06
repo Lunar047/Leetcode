@@ -2,14 +2,12 @@ class Solution {
 public:
     vector<int> findLonely(vector<int>& nums) {
         vector<int> ans;
-        unordered_map<int,int> mp;
-        for(auto &i:nums){
-            mp[i]++;
-        }
-        for(auto &i:nums){
-            if(mp.count(i+1) || mp.count(i-1) || mp[i]>1)continue;
-            else ans.push_back(i);
+        sort(nums.begin(),nums.end());
+        for(size_t i = 0;i<nums.size();i++){
+            if((i && nums[i]-nums[i-1]<=1) || (i<nums.size()-1 && nums[i+1]-nums[i]<=1))continue;
+            else ans.push_back(nums[i]);
         }
         return ans;
+       
     }
 };
