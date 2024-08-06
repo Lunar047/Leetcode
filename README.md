@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/Lunar047/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Lunar047/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Lunar047/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2270-find-all-lonely-numbers-in-the-array](https://github.com/Lunar047/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Lunar047/Leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/Lunar047/Leetcode/tree/master/2502-sort-the-people) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Lunar047/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
@@ -82,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1803-average-waiting-time](https://github.com/Lunar047/Leetcode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Lunar047/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Lunar047/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2270-find-all-lonely-numbers-in-the-array](https://github.com/Lunar047/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Lunar047/Leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Lunar047/Leetcode/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/Lunar047/Leetcode/tree/master/2502-sort-the-people) |
@@ -241,6 +243,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Lunar047/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2270-find-all-lonely-numbers-in-the-array](https://github.com/Lunar047/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Lunar047/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
 ## Prefix Sum
 |  |
