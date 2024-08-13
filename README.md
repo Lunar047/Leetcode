@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Lunar047/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/Lunar047/Leetcode/tree/master/1511-count-number-of-teams) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Lunar047/Leetcode/tree/master/3482-construct-string-with-minimum-cost) |
+| [3535-find-the-count-of-monotonic-pairs-i](https://github.com/Lunar047/Leetcode/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 ## Backtracking
 |  |
 | ------- |
@@ -102,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3427-special-array-ii](https://github.com/Lunar047/Leetcode/tree/master/3427-special-array-ii) |
 | [3466-number-of-subarrays-with-and-value-of-k](https://github.com/Lunar047/Leetcode/tree/master/3466-number-of-subarrays-with-and-value-of-k) |
 | [3482-construct-string-with-minimum-cost](https://github.com/Lunar047/Leetcode/tree/master/3482-construct-string-with-minimum-cost) |
+| [3535-find-the-count-of-monotonic-pairs-i](https://github.com/Lunar047/Leetcode/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -139,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0870-magic-squares-in-grid](https://github.com/Lunar047/Leetcode/tree/master/0870-magic-squares-in-grid) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Lunar047/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Lunar047/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
+| [3535-find-the-count-of-monotonic-pairs-i](https://github.com/Lunar047/Leetcode/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 ## Recursion
 |  |
 | ------- |
@@ -272,6 +275,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3427-special-array-ii](https://github.com/Lunar047/Leetcode/tree/master/3427-special-array-ii) |
+| [3535-find-the-count-of-monotonic-pairs-i](https://github.com/Lunar047/Leetcode/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -327,4 +331,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Lunar047/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+## Combinatorics
+|  |
+| ------- |
+| [3535-find-the-count-of-monotonic-pairs-i](https://github.com/Lunar047/Leetcode/tree/master/3535-find-the-count-of-monotonic-pairs-i) |
 <!---LeetCode Topics End-->
