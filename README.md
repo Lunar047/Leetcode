@@ -80,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0307-range-sum-query-mutable](https://github.com/Lunar047/Leetcode/tree/master/0307-range-sum-query-mutable) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Lunar047/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0322-coin-change](https://github.com/Lunar047/Leetcode/tree/master/0322-coin-change) |
+| [0624-maximum-distance-in-arrays](https://github.com/Lunar047/Leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Lunar047/Leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0870-magic-squares-in-grid](https://github.com/Lunar047/Leetcode/tree/master/0870-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/Lunar047/Leetcode/tree/master/0890-lemonade-change) |
@@ -115,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0624-maximum-distance-in-arrays](https://github.com/Lunar047/Leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0768-partition-labels](https://github.com/Lunar047/Leetcode/tree/master/0768-partition-labels) |
 | [0890-lemonade-change](https://github.com/Lunar047/Leetcode/tree/master/0890-lemonade-change) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Lunar047/Leetcode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
