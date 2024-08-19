@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0279-perfect-squares](https://github.com/Lunar047/Leetcode/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/Lunar047/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Lunar047/Leetcode/tree/master/0322-coin-change) |
+| [0650-2-keys-keyboard](https://github.com/Lunar047/Leetcode/tree/master/0650-2-keys-keyboard) |
 | [1008-binary-tree-cameras](https://github.com/Lunar047/Leetcode/tree/master/1008-binary-tree-cameras) |
 | [1250-longest-common-subsequence](https://github.com/Lunar047/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Lunar047/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -147,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0263-ugly-number](https://github.com/Lunar047/Leetcode/tree/master/0263-ugly-number) |
 | [0273-integer-to-english-words](https://github.com/Lunar047/Leetcode/tree/master/0273-integer-to-english-words) |
 | [0279-perfect-squares](https://github.com/Lunar047/Leetcode/tree/master/0279-perfect-squares) |
+| [0650-2-keys-keyboard](https://github.com/Lunar047/Leetcode/tree/master/0650-2-keys-keyboard) |
 | [0870-magic-squares-in-grid](https://github.com/Lunar047/Leetcode/tree/master/0870-magic-squares-in-grid) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Lunar047/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [3416-sum-of-digit-differences-of-all-pairs](https://github.com/Lunar047/Leetcode/tree/master/3416-sum-of-digit-differences-of-all-pairs) |
