@@ -19,7 +19,7 @@ public:
         if(n<=0)return 0;
         vector<ll> f = factors(n);
         for(auto &i:f){
-            cout<<i<<" ";
+            // cout<<i<<" ";
             if(i==2 || i==3 || i==5)continue;
             else return 0;
         }
