@@ -1,28 +1,25 @@
 class Solution {
 private:
     typedef long long ll;
-    vector<ll> factors(ll n){
-        vector<ll> fac;
+    bool check(ll n){
         ll i = 2;
-        for(i;i*i<=n;i++){
+        while(i*i<=n){
             if(n%i==0){
-                fac.push_back(i);
-                // if(n/i != i)fac.push_back(n/i);
-                while(n%i==0)n/=i;
+                // cout<<i<<" ";
+                if(i==2 || i==3 || i==5){
+                    while(n%i==0)n/=i;
+                }
+                else return 0;
             }
+            i++;
         }
-        if(n>1)fac.push_back(n);
-        return fac;
+
+        if(n>1 && !(n==2 || n==3 || n==5))return 0;
+        else return 1;
     }
 public:
     bool isUgly(int n) {
         if(n<=0)return 0;
-        vector<ll> f = factors(n);
-        for(auto &i:f){
-            // cout<<i<<" ";
-            if(i==2 || i==3 || i==5)continue;
-            else return 0;
-        }
-        return 1;
+        return check(n);
     }
 };
