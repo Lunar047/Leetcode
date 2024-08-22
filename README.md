@@ -130,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0078-subsets](https://github.com/Lunar047/Leetcode/tree/master/0078-subsets) |
+| [0476-number-complement](https://github.com/Lunar047/Leetcode/tree/master/0476-number-complement) |
 | [3466-number-of-subarrays-with-and-value-of-k](https://github.com/Lunar047/Leetcode/tree/master/3466-number-of-subarrays-with-and-value-of-k) |
 ## Matrix
 |  |
