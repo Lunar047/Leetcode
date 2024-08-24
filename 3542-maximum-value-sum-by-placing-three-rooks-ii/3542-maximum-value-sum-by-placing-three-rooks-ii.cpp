@@ -4,28 +4,31 @@ private:
     ll ans = LLONG_MIN;
 public:
     long long maximumValueSum(vector<vector<int>>& board) {
-         ll n = board.size(),m = board[0].size();
-        vector<vector<ll>> temp,arr;
+        ll n = board.size(),m = board[0].size();
+        vector<vector<ll>> arr;
+        vector<vector<pair<int,int>>> temp(n);
         for(int i=0;i<n;i++)
             for(int j=0;j<m;j++)
-                temp.push_back({board[i][j],i,j});
+                temp[i].push_back({board[i][j],j});
         // sort(temp.begin(),temp.end(),[this](vector<ll>&a,vector<ll>&b){return a[0]>b[0];});
-        sort(temp.rbegin(),temp.rend());
-        // for(auto &i:temp){
-        //     cout<<i[0]<<" ";
+        for(int i=0;i<n;i++)
+            sort(temp[i].rbegin(),temp[i].rend());
+        // for(int i=0;i<n;i++)
+        // for(auto &j:temp[i]){
+        //     cout<<j.first<<" ";
         // }
-        vector<int> cnt(n,0);
-        ll t = temp.size();
+        // vector<int> cnt(n,0);
+        // ll t = temp.size();
         int total = 0;
-        for(int i=0;i<t;i++){
-            if(cnt[temp[i][1]]<5){
-                total++;
-                cnt[temp[i][1]]++;
-                arr.push_back(temp[i]);
-            }
-            else if(total>=(n*5))break;
+        for(int i=0;i<n;i++){
+           for(int j=0;j<min((ll)5,m);j++){
+                // cout<<i<<" "<<j<<" ";
+                arr.push_back({temp[i][j].first,i,temp[i][j].second});
+           }
+            //   cout<<endl;
         }
-        t = arr.size();
+        sort(arr.rbegin(),arr.rend());
+        ll t = arr.size();
         for(int i=0;i<t-2;i++){
             for(int j=i+1;j<t-1;j++){
                 if(arr[i][1]==arr[j][1] ||  arr[i][2] == arr[j][2])continue;
