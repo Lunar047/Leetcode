@@ -23,7 +23,7 @@ public:
                 cnt[temp[i][1]]++;
                 arr.push_back(temp[i]);
             }
-            // else if(total>=(n*6))break;
+            else if(total>=(n*6))break;
         }
         t = arr.size();
         for(int i=0;i<t-2;i++){
