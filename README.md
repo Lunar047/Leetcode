@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0084-largest-rectangle-in-histogram](https://github.com/Lunar047/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0198-house-robber](https://github.com/Lunar047/Leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Lunar047/Leetcode/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/Lunar047/Leetcode/tree/master/0204-count-primes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Lunar047/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/Lunar047/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0307-range-sum-query-mutable](https://github.com/Lunar047/Leetcode/tree/master/0307-range-sum-query-mutable) |
@@ -160,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Lunar047/Leetcode/tree/master/0070-climbing-stairs) |
+| [0204-count-primes](https://github.com/Lunar047/Leetcode/tree/master/0204-count-primes) |
 | [0263-ugly-number](https://github.com/Lunar047/Leetcode/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/Lunar047/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/Lunar047/Leetcode/tree/master/0273-integer-to-english-words) |
@@ -393,6 +395,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Lunar047/Leetcode/tree/master/0204-count-primes) |
 | [3542-maximum-value-sum-by-placing-three-rooks-ii](https://github.com/Lunar047/Leetcode/tree/master/3542-maximum-value-sum-by-placing-three-rooks-ii) |
 | [3550-maximum-value-sum-by-placing-three-rooks-i](https://github.com/Lunar047/Leetcode/tree/master/3550-maximum-value-sum-by-placing-three-rooks-i) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Lunar047/Leetcode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
