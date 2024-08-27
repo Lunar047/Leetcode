@@ -61,7 +61,7 @@ void generate(){
     map<ll,bool> mp;
     mp[1] = 1;
     int cnt = 1;
-    vector<ll> e = {2,3,4,5};
+    vector<ll> e = {2,3,5};
     while(cnt<1799){
         ll node = pq.top();
         pq.pop();
