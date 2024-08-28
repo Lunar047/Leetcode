@@ -28,9 +28,7 @@ public:
         int ans = 0;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                if(grid2[i][j]){
-                    if(bfs(i,j,grid1,grid2))ans++;
-                }
+                if(grid2[i][j] && bfs(i,j,grid1,grid2))ans++;
             }
         }
         return ans;
