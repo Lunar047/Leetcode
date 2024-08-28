@@ -106,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/Lunar047/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1803-average-waiting-time](https://github.com/Lunar047/Leetcode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Lunar047/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2035-count-sub-islands](https://github.com/Lunar047/Leetcode/tree/master/2035-count-sub-islands) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Lunar047/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Lunar047/Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2270-find-all-lonely-numbers-in-the-array](https://github.com/Lunar047/Leetcode/tree/master/2270-find-all-lonely-numbers-in-the-array) |
@@ -153,6 +154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0921-spiral-matrix-iii](https://github.com/Lunar047/Leetcode/tree/master/0921-spiral-matrix-iii) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Lunar047/Leetcode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Lunar047/Leetcode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [2035-count-sub-islands](https://github.com/Lunar047/Leetcode/tree/master/2035-count-sub-islands) |
 | [2411-spiral-matrix-iv](https://github.com/Lunar047/Leetcode/tree/master/2411-spiral-matrix-iv) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Lunar047/Leetcode/tree/master/2472-build-a-matrix-with-conditions) |
 | [3542-maximum-value-sum-by-placing-three-rooks-ii](https://github.com/Lunar047/Leetcode/tree/master/3542-maximum-value-sum-by-placing-three-rooks-ii) |
@@ -250,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1008-binary-tree-cameras](https://github.com/Lunar047/Leetcode/tree/master/1008-binary-tree-cameras) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Lunar047/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Lunar047/Leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+| [2035-count-sub-islands](https://github.com/Lunar047/Leetcode/tree/master/2035-count-sub-islands) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Lunar047/Leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Binary Tree
 |  |
@@ -280,10 +283,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/Lunar047/Leetcode/tree/master/0200-number-of-islands) |
 | [0279-perfect-squares](https://github.com/Lunar047/Leetcode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/Lunar047/Leetcode/tree/master/0322-coin-change) |
+| [2035-count-sub-islands](https://github.com/Lunar047/Leetcode/tree/master/2035-count-sub-islands) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Lunar047/Leetcode/tree/master/0200-number-of-islands) |
+| [2035-count-sub-islands](https://github.com/Lunar047/Leetcode/tree/master/2035-count-sub-islands) |
 ## Monotonic Stack
 |  |
 | ------- |
