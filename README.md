@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0264-ugly-number-ii](https://github.com/Lunar047/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0768-partition-labels](https://github.com/Lunar047/Leetcode/tree/master/0768-partition-labels) |
 | [0870-magic-squares-in-grid](https://github.com/Lunar047/Leetcode/tree/master/0870-magic-squares-in-grid) |
+| [0906-walking-robot-simulation](https://github.com/Lunar047/Leetcode/tree/master/0906-walking-robot-simulation) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Lunar047/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Lunar047/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Lunar047/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -96,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Lunar047/Leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0870-magic-squares-in-grid](https://github.com/Lunar047/Leetcode/tree/master/0870-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/Lunar047/Leetcode/tree/master/0890-lemonade-change) |
+| [0906-walking-robot-simulation](https://github.com/Lunar047/Leetcode/tree/master/0906-walking-robot-simulation) |
 | [0909-stone-game](https://github.com/Lunar047/Leetcode/tree/master/0909-stone-game) |
 | [0921-spiral-matrix-iii](https://github.com/Lunar047/Leetcode/tree/master/0921-spiral-matrix-iii) |
 | [0948-sort-an-array](https://github.com/Lunar047/Leetcode/tree/master/0948-sort-an-array) |
@@ -200,6 +202,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0592-fraction-addition-and-subtraction](https://github.com/Lunar047/Leetcode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0640-solve-the-equation](https://github.com/Lunar047/Leetcode/tree/master/0640-solve-the-equation) |
+| [0906-walking-robot-simulation](https://github.com/Lunar047/Leetcode/tree/master/0906-walking-robot-simulation) |
 | [0921-spiral-matrix-iii](https://github.com/Lunar047/Leetcode/tree/master/0921-spiral-matrix-iii) |
 | [1803-average-waiting-time](https://github.com/Lunar047/Leetcode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Lunar047/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
