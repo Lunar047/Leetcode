@@ -8,12 +8,13 @@ private:
         // cout<<node<<" :";
         vis[node] = 1;
         Tin[node] = low[node] =  timer++;
-        bool parent_skipped = false;
+        // bool parent_skipped = false;
         for(auto &i:adj[node]){
-             if (i == parent && !parent_skipped) {
-                parent_skipped = true;
-                continue;
-            }
+            if(i==parent)continue;
+            //  if (i == parent && !parent_skipped) {
+            //     parent_skipped = true;
+            //     continue;
+            // }
             if(vis[i]){
                 low[node] = min(low[node],low[i]);
             }
