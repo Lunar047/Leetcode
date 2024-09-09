@@ -95,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Lunar047/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0322-coin-change](https://github.com/Lunar047/Leetcode/tree/master/0322-coin-change) |
 | [0624-maximum-distance-in-arrays](https://github.com/Lunar047/Leetcode/tree/master/0624-maximum-distance-in-arrays) |
+| [0695-max-area-of-island](https://github.com/Lunar047/Leetcode/tree/master/0695-max-area-of-island) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Lunar047/Leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0870-magic-squares-in-grid](https://github.com/Lunar047/Leetcode/tree/master/0870-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/Lunar047/Leetcode/tree/master/0890-lemonade-change) |
@@ -163,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/Lunar047/Leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/Lunar047/Leetcode/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Lunar047/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0695-max-area-of-island](https://github.com/Lunar047/Leetcode/tree/master/0695-max-area-of-island) |
 | [0870-magic-squares-in-grid](https://github.com/Lunar047/Leetcode/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/Lunar047/Leetcode/tree/master/0921-spiral-matrix-iii) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Lunar047/Leetcode/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -274,6 +276,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Lunar047/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Lunar047/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/Lunar047/Leetcode/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/Lunar047/Leetcode/tree/master/0695-max-area-of-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Lunar047/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1008-binary-tree-cameras](https://github.com/Lunar047/Leetcode/tree/master/1008-binary-tree-cameras) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Lunar047/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -313,6 +316,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0279-perfect-squares](https://github.com/Lunar047/Leetcode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/Lunar047/Leetcode/tree/master/0322-coin-change) |
 | [0684-redundant-connection](https://github.com/Lunar047/Leetcode/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/Lunar047/Leetcode/tree/master/0695-max-area-of-island) |
 | [1484-linked-list-in-binary-tree](https://github.com/Lunar047/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/Lunar047/Leetcode/tree/master/2035-count-sub-islands) |
 ## Union Find
@@ -320,6 +324,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0200-number-of-islands](https://github.com/Lunar047/Leetcode/tree/master/0200-number-of-islands) |
 | [0684-redundant-connection](https://github.com/Lunar047/Leetcode/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/Lunar047/Leetcode/tree/master/0695-max-area-of-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Lunar047/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [2035-count-sub-islands](https://github.com/Lunar047/Leetcode/tree/master/2035-count-sub-islands) |
 ## Monotonic Stack
